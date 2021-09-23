@@ -29,7 +29,7 @@ int pow(int a, int b) {
 	return result;
 }
 
-int f(int visit, int here) {
+int f(int visit, int here) {	//비트마스킹과 DP를 이용
 	int min = 2100000000;
 	int cur = visit;
 	if (memo[visit][here] != 0)
